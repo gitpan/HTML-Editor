@@ -1,0 +1,30 @@
+---
+name: HTML-Editor
+version: 0.27
+author:
+  - 'Dirk Lindner <lze@cpan.org>'
+abstract: BBCode & html editor
+license: lgpl
+resources:
+  license: http://opensource.org/licenses/artistic-license.php
+requires:
+  CGI::QuickApp: '>=0.25'
+  HTML::Entities: '>=1.35'
+  HTML::Window: '>=0.25'
+  Module::Build: '>=0.2808'
+  Syntax::Highlight::Perl: '>=1.00'
+  Template::Quick: '>=0.25'
+  Test::More: '>=0.7'
+  Test::Pod: '>=1.26'
+  Test::Pod::Coverage: '>=0.55'
+provides:
+  HTML::Editor:
+    file: lib/HTML/Editor.pm
+    version: 0.27
+  HTML::Editor::BBCODE:
+    file: lib/HTML/Editor/BBCODE.pm
+    version: 0.26
+generated_by: Module::Build version 0.2808
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2

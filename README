@@ -1,0 +1,26 @@
+INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+   or
+   perl Build.pl --cgi=/srv/www/cgi-bin --htd=/srv/www/htdocs --skip
+   ./Build && ./Build test && ./Build install
+
+This module requires these other modules and libraries:
+
+  CGI::QuickApp                     >= 0.25,
+  Template::Quick          >= 0.25,
+  HTML::Window  >= 0.25,
+  HTML::Entities               >= 1.35,
+  Syntax::Highlight::Perl      >= 1.00,
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2006-2007 by Hr. Dirk Lindner 
+
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation; This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details. 
+ 

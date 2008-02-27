@@ -1,0 +1,11 @@
+Revision history for Perl extension HTML::Editor 0.26
+
+0.26
+        Overwrought Docs and clean up code, fix build System
+
+0.25
+        Clean Build system
+0.24
+        workaround
+0.23
+        use Module Build, new namespace  HTML::Editor
